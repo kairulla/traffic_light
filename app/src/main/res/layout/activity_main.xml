@@ -10,48 +10,133 @@
         android:id="@+id/bulb_1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="88dp"
         android:background="@color/grey"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toStartOf="@+id/bulb_4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/bulb_2"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp"
         android:background="@color/grey"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toStartOf="@+id/bulb_5"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bulb_1"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/bulb_1">
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/bulb_3"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/bulb_6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bulb_2"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bulb_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="88dp"
         android:background="@color/grey"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bulb_2"></LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bulb_5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bulb_4"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bulb_6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bulb_5"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bulb_7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toEndOf="@+id/bulb_4"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bulb_8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toEndOf="@+id/bulb_5"
+        app:layout_constraintTop_toBottomOf="@+id/bulb_7"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bulb_9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.612"
+        app:layout_constraintStart_toEndOf="@+id/bulb_6"
+        app:layout_constraintTop_toBottomOf="@+id/bulb_8"></LinearLayout>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="72dp"
         android:onClick="onClickStart"
         android:text="Start"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bulb_3" />
+        app:layout_constraintTop_toBottomOf="@+id/bulb_6" />
+
 </android.support.constraint.ConstraintLayout>
